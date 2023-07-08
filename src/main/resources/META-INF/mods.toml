@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+issueTrackerURL="https://modrinth.com/mod/raw-netherite-scrap"
+logoFile="logo.png"
+license="MIT"
+[[mods]]
+    modId="raw_netherite"
+    version="0.0.4"
+    displayName="Debris Chunk(Raw Netherite scrap)"
+    authors="creeping_creeper"
+    description='''
+A simple mod add Debris Chunk,the raw materials form of Ancient Debris.
+    '''
+[[dependencies.raw_netherite]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
